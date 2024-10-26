@@ -14,7 +14,7 @@ export const POST = (async ({ request }) => {
 	const { messages } = await request.json();
 
 	const result = await streamText({
-		model: openai('gpt-4o-mini'),
+		model: openai(env.OPENAI_MODEL),
 		system,
 		messages: convertToCoreMessages(messages)
 	});

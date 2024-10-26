@@ -14,7 +14,6 @@ Para utilizar esta aplicación necesitarás:
 - Solicitar el [Mistral API KEY](https://console.mistral.ai/api-keys/)
 - Prueba: Solicitar los modelos con una llamada a la API usando archivo .http en [Mistral Endpoints](https://docs.mistral.ai/api/#tag/models)
 - Crea una interacción con el modelo usando la aplicación de chat en Svelte
-
 ### Agentes avanzados
 - Crear un Agente AI con CodeGPT
 - Carga la informacion al agente

@@ -14,7 +14,7 @@ export const POST = (async ({ request }) => {
 	const { messages } = await request.json();
 
 	const result = await streamText({
-		model: mistral('ministral-8b-2410'),
+		model: mistral(env.MISTRAL_MODEL),
 		system,
 		messages: convertToCoreMessages(messages)
 	});
